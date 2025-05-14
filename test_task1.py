@@ -5,7 +5,7 @@ from my_functions import add, subtract
 
 class testAdd(unittest.TestCase):
     def test_positive_numbers(self):
-        self.assertEqual(add(1,2),99)
+        self.assertEqual(add(1,2),3)
 
     def test_negative_numbers(self):
         self.assertEqual(add(-1,-2),-3)
